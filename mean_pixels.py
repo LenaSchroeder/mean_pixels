@@ -12,12 +12,9 @@ BlueValue2 = 0
 ReadinessValue = 0
 ReadinessValue2 = 200
 
-# Get pixel brightnesses
-result = (RedValue + GreenValue + BlueValue) / 3
-result2 = (RedValue2 + GreenValue2 + BlueValue2) / 3
+PixelBrightness1 = (RedValue + GreenValue + BlueValue) / 3
+PixelBrightness2 = (RedValue2 + GreenValue2 + BlueValue2) / 3
 
-# Get mean brightness
-result3 = (result + result2) / 2
-print(result3)
+result_brightness3 = (PixelBrightness1 + PixelBrightness2) / 2
+print(result_brightness3)
 
-# test change reverse
