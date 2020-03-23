@@ -19,3 +19,5 @@ result2 = (x2 + y2 + z2) / 3
 # Get mean brightness
 result3 = (result + result2) / 2
 print(result3)
+
+# test change
